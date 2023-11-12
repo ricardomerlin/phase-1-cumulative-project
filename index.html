@@ -5,8 +5,55 @@
         <header>
             <h1>Custom Story Generator(placeholder)</h1>
         </header>
-        <div class="Questionaire">
+        <div class="container-for-content">
             <h2>Hello! Welcome to our custom story generator. Please go through each question and answer with one word according to the guidelines presented in each question. In the end, your story will generated based off of your inputs. Please feel free to also view previous submissions and interact with them as well.
+            </h2>
+            <ul>
+                <form id="questionaire"></form>
+                    <li>Question 1: 
+                        <form id="question-1-answer">
+                            <input id="question-1-input" type="text" placeholder="answer"/>
+                        </form>
+                    </li>
+                    <li>Question 2
+                        <form id="question-2-answer">
+                            <input id="question-2-input" type="text" placeholder="answer"/>
+                        </form>
+                    </li>
+                    <li>Question 3
+                        <form id="question-3-answer">
+                            <input id="question-3-input" type="text" placeholder="answer"/>
+                        </form>
+                    </li>
+                    <li>Question 4
+                        <form id="question-4-answer">
+                            <input id="question-4-input" type="text" placeholder="answer"/>
+                        </form>
+                    </li>
+                    <li>Question 5
+                        <form id="question-5-answer">
+                            <input id="question-5-input" type="text" placeholder="answer"/>
+                        </form>
+                    </li>
+                    <p>
+                        <input type="submit" value="Create">
+                    </p>
+                </form>
+            </ul>
+            <div>
+                <h3 id="custom-story">Text for custom story will go here</h3>
+                <div id="previous-posts-container">
+                    <div id="posts">
+                        <!--posts-go-here-->
+                        <p>Sample Post. This will be made by a submit event listener that will be attached to the submit button.</p>
+                    </div>
+                    <button id="like-button">O Likes</button>
+                    <form id="comment-form">
+                        <input type="text" name="comment-input" placeholder="Your Comment Here">
+                        <input type="submit" value="Add Comment">
+                    </form>
+                </div>
+            </div>
         </div>
         <script defer src="./src/index.js"></script>
     </body>
