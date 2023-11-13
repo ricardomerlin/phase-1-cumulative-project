@@ -4,46 +4,36 @@
         "id": 1,
         "story": "",
         "likes": 0,
-        "dislikes": 0,
-        // "comments": [
-        //   "Haha, nice.",
-        // ]
+        "dislikes": 0
+  
       },
       {
         "id": 2,
-        "story": ""
+        "story": "",
         "likes": 0,
-        "dislikes": 0,
-        // "comments": [
-        //   "Love how you used (insert adjective), lol.",
-        // ]
+        "dislikes": 0
+     
       },
       {
         "id": 3,
-        "story": ,
+        "story": "",
         "likes": 0,
-        "dislikes": 0,
-        // "comments": [
-        //   "What a funny story.",
-        // ]
+        "dislikes": 0
+   
       },
       {
         "id": 4,
-        "story": ,
+        "story": "",
         "likes": 0,
-        "dislikes": 0,
-        // "comments": [
-        //   "Great choice of words! Haha.",
-        // ]
+        "dislikes": 0
+     
       },
       {
         "id": 5,
-        "story": ,
+        "story": "",
         "likes": 0,
-        "dislikes": 0,
-        // "comments": [
-        //     "Awesome!",
-        // ]
+        "dislikes": 0
+   
       }
     ]
   }

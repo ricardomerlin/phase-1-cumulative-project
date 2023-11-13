@@ -11,38 +11,38 @@
             <ul>
                 <form id="questionnaire"></form>
                     <li>Word 1: 
-                        <form id="question-1-answer">
-                            <input id="question-1-input" type="text" placeholder="answer"/>
-                            <p>noun (singular)</p>
-                        </form>
+                        <p id="question-1-answer">
+                            <input id="question-1-input" name="word1" type="text" placeholder="answer"/>
+                            <i>noun (singular)</i>
+                        </p>
                     </li>
                     <li>Word 2:
-                        <form id="question-2-answer">
-                            <input id="question-2-input" type="text" placeholder="answer"/>
-                            <h1>noun (plural)</h1>
-                        </form>
+                        <p id="question-2-answer">
+                            <input id="question-2-input" name="word2" type="text" placeholder="answer"/>
+                            <i>noun (plural)</i>
+                        </p>
                     </li>
                     <li>Word 3:
-                        <form id="question-3-answer">
-                            <input id="question-3-input" type="text" placeholder="answer"/>
-                            <h1>verb (past tense)</h1>
-                        </form>
+                        <p id="question-3-answer">
+                            <input id="question-3-input" name="word3" type="text" placeholder="answer"/>
+                            <hi>verb (past tense)</i>
+                        </p>
                     </li>
                     <li>Word 4:
-                        <form id="question-4-answer">
-                            <input id="question-4-input" type="text" placeholder="answer"/>
-                            <h1>adjective</h1>
-                        </form>
+                        <p id="question-4-answer">
+                            <input id="question-4-input" name="word4" type="text" placeholder="answer"/>
+                            <i>adjective</i>
+                        </p>
                     </li>
                     <li>Word 5:
-                        <form id="question-5-answer">
-                            <input id="question-5-input" type="text" placeholder="answer"/>
-                            <h1>adjective</h1>
-                        </form>
+                        <p id="question-5-answer">
+                            <input id="question-5-input" name="word5" type="text" placeholder="answer"/>
+                            <i>adjective</i>
+                        </p>
                     </li>
-                    <p>
-                        <input type="submit" value="Create">
-                    </p>
+                   
+                        <input id ="story-submit" type="submit" name="story-input" value="Create">
+                   
                 </form>
             </ul>
             <div>
@@ -54,10 +54,10 @@
                     </div>
                     <button id="like-button">O Likes</button>
                     <button id="dislike-button"> </button>
-                    <form id="comment-form">
+                    <!-- <form id="comment-form">
                         <input type="text" name="comment-input" placeholder="Your Comment Here">
                         <input type="submit" value="Add Comment">
-                    </form>
+                    </form> -->
                 </div>
             </div>
         </div>
@@ -70,7 +70,6 @@
             <option value="story-3">___ story </option> 
             <option value="story-4">___ story </option> 
         </select>
-
-        <script defer src="./src/index.js"></script>
+        <script defer src="./index.js"></script>
     </body>
 </html>
