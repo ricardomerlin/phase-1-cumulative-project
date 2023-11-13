@@ -1,0 +1,49 @@
+{
+    "stories": [
+      {
+        "id": 1,
+        "story": "",
+        "likes": 0,
+        "dislikes": 0,
+        // "comments": [
+        //   "Haha, nice.",
+        // ]
+      },
+      {
+        "id": 2,
+        "story": ""
+        "likes": 0,
+        "dislikes": 0,
+        // "comments": [
+        //   "Love how you used (insert adjective), lol.",
+        // ]
+      },
+      {
+        "id": 3,
+        "story": ,
+        "likes": 0,
+        "dislikes": 0,
+        // "comments": [
+        //   "What a funny story.",
+        // ]
+      },
+      {
+        "id": 4,
+        "story": ,
+        "likes": 0,
+        "dislikes": 0,
+        // "comments": [
+        //   "Great choice of words! Haha.",
+        // ]
+      },
+      {
+        "id": 5,
+        "story": ,
+        "likes": 0,
+        "dislikes": 0,
+        // "comments": [
+        //     "Awesome!",
+        // ]
+      }
+    ]
+  }
