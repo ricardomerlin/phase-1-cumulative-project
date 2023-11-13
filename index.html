@@ -1,45 +1,51 @@
-<html>
+<html lang="eng">
     <head>
+        <link rel="stylesheet" href="style.css"/>
     </head>
     <body>
         <header>
-            <h1>Family Thanksgiving Special: Story Generator</h1>
+            <h1>Mad Libs Story Generator</h1>
+            <img src="https://www.perkins.org/wp-content/uploads/2022/06/Mad_Libs_logo.png">
         </header>
         <div class="container-for-content">
             <h2>Hello! Welcome to our custom story generator. Please fill in each box with one word according to the part of speech presented below each word box. If you're unsure of what the part of speech is, mouse-over the part of speech to see a definition/example. Once completed, the story generator will return an original story based on your inputs! Please feel free to view previous submissions upon completion, and interact with them as well. Enjoy!
             </h2>
             <ul>
                 <form id="questionnaire">
-                    <li>Word 1: 
+                    <li>
+                        <i id="singular-noun" title="A singular noun refers to only one person, place, or thing. Some examples include a cat, an idea, a fruit - just make sure to only have 1!"> Noun (singular)
                         <p>
                             <input id="question-1-input" type="text" placeholder="answer"/>
-                            <i id="singular-noun"> Noun (singular)</i>
-                            <input type="hidden"> A singular noun refers to only one person, place, or thing. Some examples include a cat, an idea, a fruit - just make sure to only have 1!
                         </p>
+                        </i>
                     </li>
-                    <li>Word 2:
+                    <li>
+                        <i id="plural-noun" title="A plural noun refers to more than one person, place, or thing. Some examples include dogs, feelings,and libraries. As long as you have more than one it is plural!"> Noun (plural)
                         <p>
                             <input id="question-2-input" type="text" placeholder="answer"/>
-                            <i id="plural-noun"> Noun (plural)</i>
                         </p>
+                        </i>
                     </li>
-                    <li>Word 3:
+                    <li>
+                        <i id="past-tense-verb" title="A past tense verb refers to a word that describes an action that occured in the past. Think walked, uploaded, ran. As long as it has already been completed!">Verb (past tense)
                         <p>
                             <input id="question-3-input" type="text" placeholder="answer"/>
-                            <i id="past-tense-verb">Verb (past tense)</i>
                         </p>
+                        </i>
                     </li>
-                    <li>Word 4:
+                    <li>
+                        <i id="adjective-1" title="An adjective is a word used to describe or define a noun. Think big, enormous, silly, beautiful, meaningless.">Adjective
                         <p>
                             <input id="question-4-input" type="text" placeholder="answer"/>
-                            <i id="adjective">Adjective</i>
                         </p>
+                        </i>
                     </li>
-                    <li>Word 5:
+                    <li>
+                        <i id="adjective-2" title="An adjective is a word used to describe or define a noun. Think big, enormous, silly, beautiful, meaningless.">Adjective
                         <p>
                             <input id="question-5-input" type="text" placeholder="answer"/>
-                            <i id="adjective-2">Adjective</i>
                         </p>
+                        </i>
                     </li>
                    
                         <input id ="story-submit" type="submit" name="story-input" value="Create">
@@ -47,30 +53,36 @@
                 </form>
             </ul>
             <div>
-                <h3 id="custom-story">Text for custom story will go here</h3>
-                <div id="previous-posts-container">
+                <h3 id="custom-story"> ➡️  Text for custom story will go here  ⬅️</h3>
                     <div id="posts">
                         <!--posts-go-here-->
-                        <p>Sample Post. This will be made by a submit event listener that will be attached to the submit button.</p>
                     </div>
-                    <button id="like-button">O Likes</button>
-                    <button id="dislike-button"> </button>
                     <!-- <form id="comment-form">
                         <input type="text" name="comment-input" placeholder="Your Comment Here">
                         <input type="submit" value="Add Comment">
                     </form> -->
-                </div>
             </div>
         </div>
 
-        <label for="dropdown-menu">Story Submissions:</label> 
-<!-- this drop down will be used to store other users story submissions, each appended to a drop down item. -->
+        <!-- <label for="dropdown-menu">Story Submissions:</label> 
+this drop down will be used to store other users story submissions, each appended to a drop down item.
         <select name="list" id="dropdown"> 
             <option value="story-1">___ story</option> 
             <option value="story-2">___ story</option> 
             <option value="story-3">___ story </option> 
             <option value="story-4">___ story </option> 
-        </select>
+        </select> -->
+<div> 
+    <h4 id="previous-stories">Click here to see other's stories! 
+        <input id ="see-stories" type="submit" name="populate-stories" value="Show">
+    </h4>
+    <div id ='previous-posts-contaner'> 
+        <div id="previous-posts">
+
+        </div>
+    </div>
+</div>
+
         <script defer src="./index.js"></script>
     </body>
 </html>

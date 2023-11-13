@@ -1,39 +1,35 @@
 {
-    "stories": [
-      {
-        "id": 1,
-        "story":"",
-        "likes": 0,
-        "dislikes": 0
-  
-      },
-      {
-        "id": 2,
-        "story": "",
-        "likes": 0,
-        "dislikes": 0
-     
-      },
-      {
-        "id": 3,
-        "story": "",
-        "likes": 0,
-        "dislikes": 0
-   
-      },
-      {
-        "id": 4,
-        "story": "",
-        "likes": 0,
-        "dislikes": 0
-     
-      },
-      {
-        "id": 5,
-        "story": "",
-        "likes": 0,
-        "dislikes": 0
-   
-      }
-    ]
-  }
+  "stories": [
+    {
+      "id": 1,
+      "story": "This year, my family is hosting Thanksgiving at my sister's house. She always makes a big deal about bringing a gift or dish, so this year I decided to bring a Chocolate Cake. Last year, my brother brought tortillas, and my sister was NOT happy.\n\n  As the day approached, I carefully prepared my surprise dish, a secret weapon to dazzle the family taste buds. The anticipation grew as I  laughed on my way to my sister's home, armed with my mysterious creation. Little did they know, a culinary masterpiece awaited them.\n    \n  To everyone's surprise, my dish turned out to be terrible! The unique flavors and textures were a smelly addition to the traditional spread. This Thanksgiving, my unexpected contribution became a highlight, turning the table into a feast of culinary surprises.",
+      "likes": 0,
+      "dislikes": 0
+    },
+    {
+      "id": 2,
+      "story": "This year, my family is hosting Thanksgiving at my sister's house. She always makes a big deal about bringing a gift or dish, so this year I decided to bring a tarantula. Last year, my brother brought monster trucks, and my sister was NOT happy.\n\n  As the day approached, I carefully prepared my surprise dish, a secret weapon to dazzle the family taste buds. The anticipation grew as I  danced on my way to my sister's home, armed with my mysterious creation. Little did they know, a culinary masterpiece awaited them.\n    \n  To everyone's surprise, my dish turned out to be incredible! The unique flavors and textures were a psychotic addition to the traditional spread. This Thanksgiving, my unexpected contribution became a highlight, turning the table into a feast of culinary surprises.",
+      "likes": 0,
+      "dislikes": 0
+    },
+    {
+      "id": 3,
+      "story": "This year, my family is hosting Thanksgiving at my sister's house. She always makes a big deal about bringing a gift or dish, so this year I decided to bring a danish. Last year, my brother brought kitties, and my sister was NOT happy.\n\n As the day approached, I carefully prepared my surprise dish, a secret weapon to dazzle the family taste buds. The anticipation grew as I  pooped on my way to my sister's home, armed with my mysterious creation. Little did they know, a culinary masterpiece awaited them.\n    \n To everyone's surprise, my dish turned out to be ridiculous! The unique flavors and textures were a morbid addition to the traditional spread. This Thanksgiving, my unexpected contribution became a highlight, turning the table into a feast of culinary surprises.",
+      "likes": 0,
+      "dislikes": 0
+    },
+    {
+      "id": 4,
+      "story": "This year, my family is hosting Thanksgiving at my sister's house. She always makes a big deal about bringing a gift or dish, so this year I decided to bring a CHINA. Last year, my brother brought noodles, and my sister was NOT happy.\n\n  As the day approached, I carefully prepared my surprise dish, a secret weapon to dazzle the family taste buds. The anticipation grew as I  kicked on my way to my sister's home, armed with my mysterious creation. Little did they know, a culinary masterpiece awaited them.\n    \n To everyone's surprise, my dish turned out to be lovely! The unique flavors and textures were a strange addition to the traditional spread. This Thanksgiving, my unexpected contribution became a highlight, turning the table into a feast of culinary surprises.",
+      "likes": 0,
+      "dislikes": 0
+    },
+    {
+      "id": 5,
+      "story": "This year, my family is hosting Thanksgiving at my sister's house. She always makes a big deal about bringing a gift or dish, so this year I decided to bring a sausage. Last year, my brother brought sausages, and my sister was NOT happy.\n\n  As the day approached, I carefully prepared my surprise dish, a secret weapon to dazzle the family taste buds. The anticipation grew as I cried on my way to my sister's home, armed with my mysterious creation. Little did they know, a culinary masterpiece awaited them.\n    \n To everyone's surprise, my dish turned out to be disgusting! The unique flavors and textures were a weird addition to the traditional spread. This Thanksgiving, my unexpected contribution became a highlight, turning the table into a feast of culinary surprises.",
+      "likes": 0,
+      "dislikes": 0
+    }
+    
+  ]
+}
