@@ -1,65 +1,60 @@
+addEventListener('DOMContentLoaded', main)
 
-fetch ('http://localhost:3000/stories')
-.then(resp => resp.json())
-.then(data => {
-    console.log(data)
-    // renderStory(stories)
-})
+function main () {
 
-// function renderStory (stories) {
 
-    // let customStory = document.querySelector('#questionnaire')
+fetch('http://localhost:3000/stories')
+  .then(res => res.json())
+  .then(data => {
+    console.log(data);
+    makeCustomStory(data);
+  })
+  .catch(error => {
+    console.error(error);
+  });
 
-    // let question1 = document.querySelector('#question-1-input')
-    // question1.textContent = stories.story;
-
-    // let question2 = document.querySelector('#question-2-input')
-    // question2.textContent = stories.story;
-
-    // let question3 = document.querySelector('#question-3-input')
-    // question3.textContent = stories.story;
-
-    // let question4 = document.querySelector('#question-4-input')
-    // question4.textContent = stories.story;
-
-    // let question5 = document.querySelector('#question-5-input')
-    // question5.textContent = stories.story;
-
+// function inputDescriptions () {
+//     let nounSingular = document.getElementById('singular-noun')
+//     nounSingular.addEventListener('mouseover', (e) => {
+//         console.log('hello')
+//     })
 // }
 
 
-let storyForm = document.querySelector('#questionnaire');
-
-storyForm.addEventListener('submit', (e) => {
+function makeCustomStory (data) {
+    let questionnaire = document.getElementById('questionnaire')
+    questionnaire.addEventListener('submit', (e) => {
     e.preventDefault();
 
-let word1 = document.querySelector('#question-1-input')
-word1.textContent = word1.value
+    let word1 = document.getElementById('question-1-input');
+    let nounSing = word1.value;
 
-let word2 = document.querySelector('#question-2-input')
-word2.textContent = word2.value
+    let word2 = document.getElementById('question-2-input');
+    let nounPlur = word2.value;
 
-let word3 = document.querySelector('#question-3-input')
-word3.textContent = word3.value
+    let word3 = document.getElementById('question-3-input');
+    let verbPastTense = word3.value;
 
-let word4 = document.querySelector('#question-4-input')
-word4.textContent = word4.value
+    let word4 = document.getElementById('question-4-input');
+    let adjective = word4.value;
 
-let word5 = document.querySelector('#question-5-input')
-word5.textContent = word5.value
+    let word5 = document.getElementById('question-5-input');
+    let adjective1 = word5.value;
+
+    let storyText = document.getElementById('custom-story')
+    storyText.textContent = `This year, my family is hosting Thanksgiving at my sister's house. She always makes a big deal about bringing a gift or dish, so this year I decided to bring a ${nounSing} . Last year, my brother brought ${nounPlur}, and my sister was NOT happy.
+
+    As the day approached, I carefully prepared my surprise dish, a secret weapon to dazzle the family taste buds. The anticipation grew as I  ${verbPastTense} on my way to my sister's home, armed with my mysterious creation. Little did they know, a culinary masterpiece awaited them.
+    
+    To everyone's surprise, my dish turned out to be ${adjective} ! The unique flavors and textures were a ${adjective1} addition to the traditional spread. This Thanksgiving, my unexpected contribution became a highlight, turning the table into a feast of culinary surprises.`
+
+    console.log(storyText)
+
+    })
+}
 
 
-// let word1 = e.target.word1.value;
-// let word2 = e.target.word2.value;
-// let word3 = e.target.word3.value;
-// let word4 = e.target.word4.value;
-// let word5 = e.target.word5.value;
 
-let storyPost = document.querySelector('#posts');
-let custStory = document.querySelector('#custom-story')
-    custStory.textContent = `${word1} is going ${word2} then ${word3} because ${word4} after ${word5}`
-    console.log(custStory)
 
-    storyPost.append(custStory)
-})
 
+}
