@@ -29,3 +29,6 @@ Guidelines:
 Extras: 
 6. (+) The user can click a "Save" button which will post their story to the page so future users can compare stories. 
 7. (+) Stories will be held in a drop down menu on the top left of the page so that they can't see what the story is prior to creating their own. 
+
+
+testingggg
