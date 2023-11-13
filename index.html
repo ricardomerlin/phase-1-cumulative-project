@@ -3,36 +3,41 @@
     </head>
     <body>
         <header>
-            <h1>Custom Story Generator(placeholder)</h1>
+            <h1>Family Thanksgiving Special: Story Generator</h1>
         </header>
         <div class="container-for-content">
-            <h2>Hello! Welcome to our custom story generator. Please go through each question and answer with one word according to the guidelines presented in each question. In the end, your story will generated based off of your inputs. Please feel free to also view previous submissions and interact with them as well.
+            <h2>Hello! Welcome to our custom story generator. Please fill in each box with one word according to the part of speech presented below each word box. If you're unsure of what the part of speech is, mouse-over the part of speech to see a definition/example. Once completed, the story generator will return an original story based on your inputs! Please feel free to view previous submissions upon completion, and interact with them as well. Enjoy!
             </h2>
             <ul>
                 <form id="questionaire"></form>
-                    <li>Question 1: 
+                    <li>Word 1: 
                         <form id="question-1-answer">
                             <input id="question-1-input" type="text" placeholder="answer"/>
+                            <h1>noun (singular)</h1>
                         </form>
                     </li>
-                    <li>Question 2
+                    <li>Word 2:
                         <form id="question-2-answer">
                             <input id="question-2-input" type="text" placeholder="answer"/>
+                            <h1>noun (plural)</h1>
                         </form>
                     </li>
-                    <li>Question 3
+                    <li>Word 3:
                         <form id="question-3-answer">
                             <input id="question-3-input" type="text" placeholder="answer"/>
+                            <h1>verb (past tense)</h1>
                         </form>
                     </li>
-                    <li>Question 4
+                    <li>Word 4:
                         <form id="question-4-answer">
                             <input id="question-4-input" type="text" placeholder="answer"/>
+                            <h1>adjective</h1>
                         </form>
                     </li>
-                    <li>Question 5
+                    <li>Word 5:
                         <form id="question-5-answer">
                             <input id="question-5-input" type="text" placeholder="answer"/>
+                            <h1>adjective</h1>
                         </form>
                     </li>
                     <p>
@@ -55,6 +60,16 @@
                 </div>
             </div>
         </div>
+
+        <label for="dropdown-menu">Story Submissions:</label> 
+<!-- this drop down will be used to store other users story submissions, each appended to a drop down item. -->
+        <select name="list" id="dropdown"> 
+            <option value="story-1">___ story</option> 
+            <option value="story-2">___ story</option> 
+            <option value="story-3">___ story </option> 
+            <option value="story-4">___ story </option> 
+        </select>
+
         <script defer src="./src/index.js"></script>
     </body>
 </html>
