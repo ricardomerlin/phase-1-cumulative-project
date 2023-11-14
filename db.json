@@ -1,34 +1,46 @@
 {
-    "stories": [
-      {
-        "id": 1,
-        "story":"",
-        "likes": 0,
-        "dislikes": 0
-      },
-      {
-        "id": 2,
-        "story":"",
-        "likes": 0,
-        "dislikes": 0
-      },
-      {
-        "id": 3,
-        "story":"",
-        "likes": 0,
-        "dislikes": 0
-      },
-      {
-        "id": 4,
-        "story":"",
-        "likes": 0,
-        "dislikes": 0
-      },
-      {
-        "id": 5,
-        "story":"",
-        "likes": 0,
-        "dislikes": 0
-      }
-    ]
-  }
+  "stories": [
+    {
+      "id": 1,
+      "story": "This year, my family is hosting Thanksgiving at my sister's house. She always makes a big deal about bringing a gift or dish, so this year I decided to bring a Boeing 747. Last year, my brother brought Tortillas, and my sister was NOT happy.\n\n  As the day approached, my Terrydactyl and I carefully prepared my Boeing 747 dish, a secret weapon to dazzle the family taste buds. The anticipation grew as I Farted on my way to my sister's home, armed with my mysterious creation. Little did they know, a culinary masterpiece awaited them.\n    \n  To everyone's surprise, my dish turned out to be Terrible! The unique flavors and textures were a Painful addition to the traditional spread. This Thanksgiving, my unexpected contribution became a highlight, turning the table into a feast of culinary surprises.",
+      "likes": 2,
+      "dislikes": 6
+    },
+    {
+      "id": 2,
+      "story": "In a bustling city alley, a Tiger named Pablo discovered a discarded box filled with vibrant Maracas. Inspired, he pooped across the alley, creating a masterpiece that captured the essence of spooky life. City Tiger's gathered, awestruck by the expressive artwork. Pablo, proud of the recognition, turned his nook into an avian art gallery. His alley became a renowned hotspot, known for its stupid and thought-provoking murals, proving that even little Tiger's can paint wonders in the realm of creativity.",
+      "likes": 6,
+      "dislikes": 3
+    },
+    {
+      "id": 3,
+      "story": "Deep in a lush forest, a grasshopper named Jasper discovered an old skyscraper brimming with ancient woodland secrets. Inspired, he scurried through the Ford F150s, implementing ancient wisdom to create a smelly potion that could heal and invigorate. Forest creatures Lunged, mesmerized by the potion's power. Jasper, satisfied with the gratitude, turned his tree hollow into a healing hub. His Skyscraper became a renowned sanctuary, revered for its miniscule and rejuvenating elixirs, proving that even little grasshopper's can wield wonders in the realm of magic.",
+      "likes": 1,
+      "dislikes": 3
+    },
+    {
+      "id": 4,
+      "story": "This year, my family is hosting Thanksgiving at my sister's house. She always makes a big deal about bringing a gift or dish, so this year I decided to bring a CHINA. Last year, my brother brought noodles, and my sister was NOT happy.\n\n  As the day approached, my Elephant and I carefully prepared my CHINA dish, a secret weapon to dazzle the family taste buds. The anticipation grew as I  kicked on my way to my sister's home, armed with my mysterious creation. Little did they know, a culinary masterpiece awaited them.\n    \n To everyone's surprise, my dish turned out to be lovely! The unique flavors and textures were a strange addition to the traditional spread. This Thanksgiving, my unexpected contribution became a highlight, turning the table into a feast of culinary surprises.",
+      "likes": 4,
+      "dislikes": 1
+    },
+    {
+      "id": 5,
+      "story": "At the edge of a tranquil pond, a Velociraptor named Lily stumbled upon an ancient Harley Davidson adorned with mystical Coconuts. Intrigued, she Galloped around the pond, arranging the Coconuts into a pattern that emitted a calming energy. Amphibian friends gathered, enchanted by the serene atmosphere. Lily, pleased with the tranquility, turned her Stupid nook into a zen retreat. Her pond became a Hairy oasis, celebrated for its harmonious and rejuvenating ambiance, illustrating that even Velociraptor's can bring wonders to the world of serenity.",
+      "likes": 4,
+      "dislikes": 2
+    },
+    {
+      "story": "Deep in a lush forest, a  Cow named Jasper discovered an old  dinner brimming with ancient woodland secrets. Inspired, he scurried through the  fellows, implementing ancient wisdom to create a  slow potion that could heal and invigorate. Forest creatures  ran, mesmerized by the potion's power. Jasper, satisfied with the gratitude, turned his tree hollow into a healing hub. His forest became a renowned sanctuary, revered for its  slow and rejuvenating elixirs, proving that even little  Cow's can wield wonders in the realm of magic.",
+      "likes": 9,
+      "dislikes": 5,
+      "id": 6
+    },
+    {
+      "story": "In a cozy kitchen, a    named Giovanni found a worn    filled with ancient Italian   . Inspired, he   through the kitchen, creating a mouthwatering plate of pasta with a velvety marinara sauce. Fellow   's gathered, enchanted by the aroma. Giovanni, pleased with the compliments, turned his    hole into a haven of Italian flavors. His kitchen became a bustling restaurant, known for its    and unique creations, proving that even    chefs can create magic in the world of flavors.",
+      "likes": 0,
+      "dislikes": 0,
+      "id": 7
+    }
+  ]
+}

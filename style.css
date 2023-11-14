@@ -1,1 +1,111 @@
+html {
+    border:10px solid rgb(11, 148, 206);
+    padding: 50px;
+}
 
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+header {
+    color: rgb(42, 147, 196);
+    text-align: center;
+    font-size: 40px;
+    font-family: "Chee Bleed";
+    font-style: italic;
+}
+
+h1 {
+    /* border: 10px solid; /
+    padding: 1%;
+    / border-width: 5px; */
+}
+
+#mad-libs-logo {
+    width: 30%;
+    max-width: 50%;
+    height: auto;
+    padding-bottom: 10px;
+    margin-top: -30px;
+}
+
+h2 { 
+    text-align: center;
+    line-height: 40px;
+    color: rgb(42, 147, 196);
+    font-family: "Times New Roman";
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-style: italic;
+    color: rgb(27, 27, 200);
+    /* text-align: center; */
+    /* margin-top: -350px; */
+}
+
+h4 {
+    margin-top:80px;
+    text-align: center;
+    margin-bottom: 400px;
+}
+
+ul {
+    border: 10px solid rgb(42, 147, 196);
+    padding: 35px;
+    margin: 0px;
+    font-size: 20px; 
+}
+
+#custom-container {
+    display: flex;
+
+}
+
+#custom-story {
+    color: rgb(249, 249, 252);
+    font-size:20px;
+    text-align: center;
+    /* width: 75%; */
+    /* margin-bottom: 400px; */
+    /* margin-left: 300px; */
+    width: 75%
+}
+
+#story-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+#previous-stories > p {
+    display: none;
+    border-top: 
+}
+
+#previous-stories > button {
+    display: none;
+    font-size: large;
+    background-color: rgb(41, 179, 41);
+}
+
+#sandwich-cat {
+    width: 15%;
+    max-width: 30%;
+}
+
+#office-funny {
+    width: 23%;
+    max-width: 30%;
+}
+
+#animal, #singular-noun, #plural-noun, #past-tense-verb, #adjective-1, #adjective-2 {
+    font-size: large;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.words {
+    color: blue;
+}
