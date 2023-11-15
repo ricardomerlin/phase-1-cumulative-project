@@ -34,7 +34,6 @@ function makeCustomStory (data) {
 
     let animal1 = document.getElementById('question-0-input');
     let animal = animal1.value;
-    // animal1.style.color = 'red';
 
     let word1 = document.getElementById('question-1-input');
     let nounSing = word1.value;
@@ -72,8 +71,8 @@ function makeCustomStory (data) {
     `In a bustling city alley, a(n) <span class="words"> ${animal}</span> named Pablo discovered a discarded box filled with vibrant <span class="words"> ${nounPlur}</span>. Inspired, he <span class="words"> ${verbPastTense}</span> across the alley, creating a masterpiece that captured the essence of <span class="words"> ${adjective1}</span> life. City <span class="words"> ${animal}</span>'s gathered, awestruck by the expressive artwork. Pablo, proud of the recognition, turned his nook into an avian art gallery. His alley became a renowned hotspot, known for its <span class="words"> ${adjective2}</span> and thought-provoking murals, proving that even little <span class="words"> ${animal}</span>'s can paint wonders in the realm of creativity.`,
 
     `At the edge of a tranquil pond, a(n) <span class="words"> ${animal}</span> named Lily stumbled upon an ancient <span class="words"> ${nounSing}</span> adorned with mystical <span class="words"> ${nounPlur}</span>. Intrigued, she <span class="words"> ${verbPastTense}</span> around the pond, arranging the <span class="words"> ${nounPlur}</span> into a pattern that emitted a calming energy. Amphibian friends gathered, enchanted by the serene atmosphere. Lily, pleased with the tranquility, turned her <span class="words"> ${adjective1}</span> nook into a zen retreat. Her pond became a <span class="words"> ${adjective2}</span> oasis, celebrated for its harmonious and rejuvenating ambiance, illustrating that even <span class="words"> ${animal}</span>'s can bring wonders to the world of serenity.`
-
     ]
+
     let randomIndex = Math.floor(Math.random() * storyTemplates.length);
     let selectedStory = storyTemplates[randomIndex];
 
@@ -117,7 +116,7 @@ function makeCustomStory (data) {
         e.onmouseover = title; 
     })    
 
-
+//
     fetch ('http://localhost:3000/stories', {
         method: 'POST',
         headers: {
@@ -133,8 +132,30 @@ function makeCustomStory (data) {
     console.log(storyText)
 
     })
-}
 
+    // let redButton = document.querySelector('#red-button');
+    // let catImage = document.querySelector('#cat-image');
+  
+    // redButton.addEventListener('click', async () => {
+    //   try {
+    //     const catUrl = await getRandomCat();
+    //     catImage.src = catUrl;
+    //   } catch (error) {
+    //     console.error('Error getting random cat:', error);
+    //   }
+    // });
+  
+    // async function getRandomCat() {
+    //   try {
+    //     const response = await fetch('https://api.thecatapi.com/v1/images/search');
+    //     const data = await response.json();
+    //     return data[0].url;
+    //   } catch (error) {
+    //     throw error;
+    //   }
+    // }
+}
+//
 function postedStories (data) {
 
     let previousPosts = document.querySelector('#previous-stories')
@@ -187,3 +208,11 @@ function postedStories (data) {
 }
 
 }
+
+// let redButton = document.querySelector('#red-button')
+
+// redButton.addEventListener('click', (e) => {
+//     console.log(e)
+
+    
+// })
