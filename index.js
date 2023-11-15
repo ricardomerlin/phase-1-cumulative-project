@@ -10,6 +10,10 @@ fetch('http://localhost:3000/stories')
         console.log(i)
         postedStories(i)
     }
+    for (let i of data) {
+        console.log(i)
+        postedStories(i)
+    }
     console.log(data);
     makeCustomStory(data);
   })
@@ -21,8 +25,20 @@ fetch('http://localhost:3000/stories')
 
 function makeCustomStory (data) {
 
+
     let questionnaire = document.getElementById('questionnaire')
     questionnaire.addEventListener('submit', (e) => {
+    e.preventDefault();
+
+    let previousStories = document.querySelector('#previous-stories')
+    let children = previousStories.querySelectorAll('*')
+    children.forEach(child => {
+        console.log(child);
+        child.style.display = 'inline-block';
+        })
+
+    let animal1 = document.getElementById('question-0-input');
+    let animal = animal1.value;
         e.preventDefault()
 
     let previousStories = document.querySelector('#previous-stories')
