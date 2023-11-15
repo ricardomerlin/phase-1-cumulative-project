@@ -23,7 +23,12 @@ function makeCustomStory (data) {
 
     let questionnaire = document.getElementById('questionnaire')
     questionnaire.addEventListener('submit', (e) => {
-    e.preventDefault();
+        e.preventDefault();
+        
+        let blueArrow1 = document.getElementById('blue-arrow');
+        blueArrow1.style.display = 'none';
+        let blueArrow2 = document.getElementById('blue-arrow-2')
+        blueArrow2.style.display = 'none';
 
     let previousStories = document.querySelector('#previous-stories')
     let children = previousStories.querySelectorAll('*')
@@ -128,32 +133,36 @@ function makeCustomStory (data) {
             dislikes: 0,
         })
     })
-
+    .then(r => r.json())
+    .then(data => {
+        postedStories(data)
+    })
     console.log(storyText)
-
+    questionnaire.reset()
     })
 
-    // let redButton = document.querySelector('#red-button');
-    // let catImage = document.querySelector('#cat-image');
+    let redButton = document.querySelector('#red-button');
+    let catImage = document.querySelector('#cat-image');
   
-    // redButton.addEventListener('click', async () => {
-    //   try {
-    //     const catUrl = await getRandomCat();
-    //     catImage.src = catUrl;
-    //   } catch (error) {
-    //     console.error('Error getting random cat:', error);
-    //   }
-    // });
+    redButton.addEventListener('click', async () => {
+      try {
+        const catUrl = await getRandomCat();
+        catImage.src = catUrl;
+      } catch (error) {
+        console.error('Error getting random cat:', error);
+      }
+      catImage.style.display = 'inline-block'
+    });
   
-    // async function getRandomCat() {
-    //   try {
-    //     const response = await fetch('https://api.thecatapi.com/v1/images/search');
-    //     const data = await response.json();
-    //     return data[0].url;
-    //   } catch (error) {
-    //     throw error;
-    //   }
-    // }
+    async function getRandomCat() {
+      try {
+        const response = await fetch('https://api.thecatapi.com/v1/images/search');
+        const data = await response.json();
+        return data[0].url;
+      } catch (error) {
+        throw error;
+      }
+    }
 }
 //
 function postedStories (data) {
@@ -208,11 +217,3 @@ function postedStories (data) {
 }
 
 }
-
-// let redButton = document.querySelector('#red-button')
-
-// redButton.addEventListener('click', (e) => {
-//     console.log(e)
-
-    
-// })
