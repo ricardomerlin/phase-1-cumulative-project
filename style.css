@@ -1,7 +1,6 @@
 
 html {
-/* border:10px solid rgb(11, 148, 206); */
-padding: 70px;
+padding: 5%;
 background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Ql7S-OkPm5DcoyqZNXOMshTERqvHNb6Vdg&usqp=CAU') ;
 }
 
@@ -15,7 +14,7 @@ h1 {
     padding: 1%;
     color: rgb(129, 205, 241);
     text-align: center;
-    font-size: 100px;
+    font-size: 7vw;
     font-family: "Chee Bleed";
     font-style: italic;
 }
