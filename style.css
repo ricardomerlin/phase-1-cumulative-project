@@ -11,53 +11,39 @@ body {
     padding: 30px;
 }
 
-header {
+h1 {
+    padding: 1%;
     color: rgb(129, 205, 241);
     text-align: center;
-    font-size: 40px;
+    font-size: 100px;
     font-family: "Chee Bleed";
     font-style: italic;
 }
 
-h1 {
-    /* border: 10px solid; */
-    padding: 1%;
-    /* border-width: 5px; */
+#image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #mad-libs-logo {
-    width: 30%;
+    width: 35%;
     height: auto;
-    padding-bottom: 20px;
-    margin-top: -30px;
-    margin-left: 80px;
+    gap: 10%;
 }
 
 #madlib-kid-1 {
     width: 10%;
     max-width: 50%;
     height: auto;
-    padding-bottom: 80px;
-    margin-top: -30px;
+    gap: 10%;
 }
 
 #madlib-kid-2 {
     width: 10%;
     max-width: 50%;
     height: auto;
-    padding-bottom: 80px;
-    padding-right: 500px;
-    margin-right: -400px;
-}
-
-#sandwich-cat {
-    width: 15%;
-    max-width: 30%;
-}
-
-#office-funny {
-    width: 23%;
-    max-width: 30%;
+    gap: 10%;
 }
 
 h2 { 
@@ -86,16 +72,17 @@ h4 {
 ul {
     border: 10px solid rgb(77, 154, 190);
     font-family: sans-serif ;
-    padding: 27px;
-    padding-right: 60px;
-    padding-left: 60px;
-    margin: 10px;
+    padding: 4%;
+    margin: 2%;
     font-size: 25px; 
+}
+
+#questionnaire {
+    padding: 2%;
 }
 
 #custom-container {
     display: flex;
-
 }
 
 #custom-story {
@@ -153,22 +140,24 @@ input {
 }
 
 #story-submit {
-    font-size: large;
+    font-size: x-large;
     background-color: rgb(0, 255, 0);
-    margin-left: 20%;
-    padding: 7px;
     border-radius: 10%;
+    position: relative;
+    left: 30%;
+    top: 30px;
 }   
 
 #cat-stuff {
     text-align: center;
 }
 #red-button {
-    margin-top: 100px;
-    margin-bottom: 60px;
-    padding: 10px;
-   background-color: red;
-   font-size: large;
+    margin-top: 20%;
+    margin-bottom: 5%;
+    padding: 1%;
+    background-color: red;
+    font-size: large;
+    font-weight: bold;
 }
 #cat-image {
     display: none;
@@ -178,7 +167,6 @@ input {
 #cat-pics {
     display:flex;
     justify-content: center;
-
 }
 
 #blue-arrow {
