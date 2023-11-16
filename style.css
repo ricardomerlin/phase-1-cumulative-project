@@ -27,10 +27,27 @@ h1 {
 
 #mad-libs-logo {
     width: 30%;
+    height: auto;
+    padding-bottom: 20px;
+    margin-top: -30px;
+    margin-left: 80px;
+}
+
+#madlib-kid-1 {
+    width: 10%;
     max-width: 50%;
     height: auto;
-    padding-bottom: 10px;
+    padding-bottom: 80px;
     margin-top: -30px;
+}
+
+#madlib-kid-2 {
+    width: 10%;
+    max-width: 50%;
+    height: auto;
+    padding-bottom: 80px;
+    padding-right: 500px;
+    margin-right: -400px;
 }
 
 #sandwich-cat {
