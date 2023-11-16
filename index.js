@@ -3,7 +3,7 @@ addEventListener('DOMContentLoaded', main)
 function main () {
 
 
-fetch('http://localhost:3000/stories')
+fetch('https://madlibs-2-0-website.onrender.com/')
   .then(res => res.json())
   .then(data => {
     for (let i of data) {
@@ -122,7 +122,7 @@ function makeCustomStory (data) {
     })    
 
 //
-    fetch ('http://localhost:3000/stories', {
+    fetch ('https://madlibs-2-0-website.onrender.com/', {
         method: 'POST',
         headers: {
             'content-type': 'application/json'
@@ -186,7 +186,7 @@ function postedStories (data) {
         countL++;
         likeButton.textContent = countL + " likes";
 
-        fetch (`http://localhost:3000/stories/${data.id}`, {
+        fetch (`https://madlibs-2-0-website.onrender.com/${data.id}`, {
         method: 'PATCH',
         headers: {
             'content-type': 'application/json'
@@ -203,7 +203,7 @@ function postedStories (data) {
         countD++;
         dislikeButton.textContent = countD + " dislikes";
 
-        fetch (`http://localhost:3000/stories/${data.id}`, {
+        fetch (`https://madlibs-2-0-website.onrender.com/${data.id}`, {
         method: 'PATCH',
         headers: {
             'content-type': 'application/json'
