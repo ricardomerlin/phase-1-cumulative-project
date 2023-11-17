@@ -40,7 +40,7 @@ function makeCustomStory (data) {
     let animal1 = document.getElementById('question-0-input');
     let animal = animal1.value;
 
-    let name1 = document.getElementById('name');
+    let name1 = document.getElementById('question-name-input');
     let name = name1.value;
 
     let word1 = document.getElementById('question-1-input');
