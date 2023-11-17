@@ -7,7 +7,7 @@ background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4Q
 body {
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-    padding: 30px;
+    padding: 2%;
 }
 
 h1 {
@@ -71,9 +71,9 @@ h4 {
 ul {
     border: 10px solid rgb(77, 154, 190);
     font-family: sans-serif ;
-    padding: 4%;
+    padding: 20px;
     margin: 2%;
-    font-size: 25px; 
+    font-size: 15px; 
 }
 
 #questionnaire {
@@ -86,7 +86,7 @@ ul {
 
 #custom-story {
     color: rgb(249, 249, 252);
-    font-size:30px;
+    font-size:25px;
     text-align: center;
     /* width: 75%; */
     /* margin-bottom: 400px; */
@@ -113,7 +113,7 @@ ul {
 
 #previous-stories > button {
     /* display: none; */
-    font-size: large;
+    font-size: medium;
     background-color: rgb(59, 216, 241);
     margin: 6px 4px;
     padding: 10px;
@@ -126,7 +126,7 @@ ul {
 }
 
 .underline-text {
-   font-size: 150%;
+   font-size: 100%;
 }
 
 .words {
@@ -135,16 +135,20 @@ ul {
 }
 
 input {
-    font-size: x-large;
+    font-size: small;
+    padding: 2%;
+
 }
 
 #story-submit {
-    font-size: x-large;
+    font-size: medium;
     background-color: rgb(0, 255, 0);
-    border-radius: 10%;
+    border-radius: 15%;
     position: relative;
-    left: 30%;
-    top: 30px;
+    top: 5px;
+    margin: 8%;
+    padding:4%;
+
 }   
 
 #cat-stuff {
@@ -171,12 +175,16 @@ input {
 #blue-arrow {
     margin-bottom: 10px;
     transform: rotate(180deg);
-    width: 100px;
+    width: 70px;
     display: inline-block
 }
 
 #blue-arrow-2 {
     margin-top: 10px;
-    width: 100px;
+    width: 70px;
     display: inline-block;
+}
+
+.enter {
+    width: 100%;
 }
